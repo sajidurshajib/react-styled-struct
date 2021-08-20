@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Btn from "./Btn"
+import styled from 'styled-components'
+import Btn from './Btn'
 
 export const Button = styled(Btn)`
     padding: 10px 20px;
@@ -10,11 +10,12 @@ export const Button = styled(Btn)`
     position: relative;
     overflow: hidden;
     transition: 250ms;
-    &:hover{
+    &:hover {
         background-color: #1167b1;
         cursor: pointer;
-    }s
-    &:focus, &:visited{
+    }
+    s &:focus,
+    &:visited {
         outline: 0;
         border: none;
     }

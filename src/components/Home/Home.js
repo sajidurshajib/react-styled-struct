@@ -1,7 +1,7 @@
 import { H } from '../Styled/Heading/Heading.style'
 import { Button } from '../Styled/Button/Button.style'
 
-const Home = ()=>{
+const Home = () => {
     return (
         <div className="Home">
             <H>This is home</H>
