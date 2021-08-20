@@ -1,0 +1,10 @@
+{
+    "extends":["eslint:recommended","plugin:react/recommended","prettier"],
+    "plugins":["prettier"],
+    "parser": "babel-eslint",
+    "rules": {
+        "prettier/prettier":"error",
+        "react/react-in-jsx-scope": "off"
+    }
+
+}
